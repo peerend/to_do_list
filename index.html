@@ -8,28 +8,41 @@
     <title>To Do List:</title>
   </head>
   <body>
-    <div class="container">
-      <h1>To Do List:</h1>
+      <div class="container">
+      <h1>Base To Do List:</h1>
 
       <div class="row">
         <div class="col-md-6">
-          <h2>Add a contact:</h2>
-          <form id="newToDo">
+          <h2>Task base:</h2>
+          <form id="baseToDo">
             <div class="form-group">
-              <label for="task">Enter New Task:</label>
-              <input type="text" class="form-control" id="task">
+              <label for="base">Enter New Task base:</label>
+              <input type="text" class="form-control" id="base">
             </div>
 
-            <button type="submit" class="btn">Add</button>
+            <button type="submit" class="btn">Add base</button>
           </form>
 
-          <h2>Tasks:</h2>
-          <ul id="tasks">
+          <ul id="categories">
 
           </ul>
         </div>
       </div>
-
+      <div class= 'row'>
+        <div class='col-md-6'>
+          <h2>Add a specific task:</h2>
+          <form id='newToDo'>
+          <div class='form-group'>
+            <label for='task'>Enter task:</label>
+            <input type='text' class='form-control' id='task'>
+          </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+        <h2>Specific Tasks:</h2>
+          <ul id='tasks'>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>

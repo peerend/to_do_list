@@ -6,6 +6,16 @@
 .task:hover{
   text-decoration: underline;
 }
+
+.category{
+  cursor: pointer;
+  color:#0088cc;
+}
+
+.category:hover{
+  text-decoration: underline;
+}
+
 ul{
   list-style-type: none;
 }
