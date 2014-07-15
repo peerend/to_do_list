@@ -4,7 +4,7 @@ $(document).ready(function() {
     var taskInput = $("input#task").val();
     var newTask = {toDo: taskInput};
 
-    $("ul#tasks").append("<li><span class='task'>" + newTask.toDo + "</span></li>");
+    $('ul#tasks').append("<li><span class='task'>" + newTask.toDo + " " + '<input type="checkbox">' + "</span></li>");
 
     $("input#task").val("");
 
